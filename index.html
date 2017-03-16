@@ -66,10 +66,22 @@
     .panel.opened > *:first-child {transform: translateY(0);}
     .panel > *:nth-child(2) {background-color: rgba(255,255,255,0.5);}
     .panel.open > *:nth-child(2) {background-color: rgba(255,255,255,0);}
+    .panel > *:nth-child(3) {transform: translateY(150%);}
+    .panel.opened > *:nth-child(3) {transform: translateY(0);}
     .panel > *:last-child {transform: translateY(100%);}
     .panel.opened > *:last-child {transform: translateY(0);}
     p {
       text-transform: uppercase;
+    }
+    .source {
+      font-size: 0.3em;
+    }
+    a {
+      color: orange;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
@@ -79,21 +91,25 @@
       <p>Tutvu</p>
       <p>heade</p>
       <p>inimestega</p>
+      <span class="source"><a href="https://upload.wikimedia.org/wikipedia/commons/c/c2/R%C3%BC%C3%BCtli-tn.JPG" target="_blank">Image source</a></span>
     </div>
     <div class='panel panel2'>
       <p>Suurte</p>
       <p>mõtete</p>
       <p>algus</p>
+      <span class="source"><a href="https://www.ut.ee/sites/default/files/ut130628at0611.jpg" target="_blank">Image source</a></span>
     </div>
     <div class='panel panel3'>
       <p>Kauneim</p>
       <p>linn</p>
       <p>Eestis</p>
+      <span class="source"><a href="http://www.geenivaramu.ee/sites/default/files/field/image/tartu.jpeg" target="_blank">Image source</a></span>
     </div>
     <div class='panel panel4'>
       <p>Ainulaadne</p>
       <p>Tartu</p>
       <p>kultuur</p>
+      <span class="source"><a href="http://tartmus.ee/wp-content/uploads/2016/12/Tartu-Kunstimuuseumi-viltune-maja-Julia-Polujanenkova-foto-e1482930385583.jpg" target="_blank">Image source</a></span>
     </div>
   </div>
   <script>
